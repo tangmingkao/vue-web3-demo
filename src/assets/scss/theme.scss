@@ -1,0 +1,9 @@
+html[data-theme="light"] {
+  --common-theme-color: #FFFFFF;
+  --dark-mode-button-bg: rgb(234, 240 ,246 ,1);
+}
+
+html[data-theme="dark"] {
+  --common-theme-color: rgb(15, 23, 42, 1);
+  --dark-mode-button-bg: rgb(30, 41, 59,1);
+}
