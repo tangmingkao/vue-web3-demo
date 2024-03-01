@@ -1,9 +1,15 @@
 html[data-theme="light"] {
-  --common-theme-color: #FFFFFF;
-  --dark-mode-button-bg: rgb(234, 240 ,246 ,1);
+  --common-theme-color: #ffffff;
+  --dark-mode-button-bg: rgb(234, 240, 246, 1);
+  --common-font-color: #202329;
+  --common-popper-bg-color: #ffffff;
+  --common-popper-hover-color: rgb(248, 250, 252, 1);
 }
 
 html[data-theme="dark"] {
   --common-theme-color: rgb(15, 23, 42, 1);
-  --dark-mode-button-bg: rgb(30, 41, 59,1);
+  --dark-mode-button-bg: rgb(30, 41, 59, 1);
+  --common-font-color: #ffffff;
+  --common-popper-bg-color: rgb(30, 41, 59, 1);
+  --common-popper-hover-color: rgb(51, 65, 85, 1);
 }

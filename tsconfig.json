@@ -28,7 +28,7 @@
     "typeRoots": ["./node_modules/@types/", "./src/types/"],
     
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/components/network-toggle/config.js"],
   "exclude": ["./tsconfig.json", "node_modules", "public", "dist", "**/*.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

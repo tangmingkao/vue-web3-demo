@@ -1,3 +1,7 @@
+//混合
+@mixin px2rem($type, $size) {
+  #{$type}: ($size / 100) * 1rem;
+}
 
 // base color
 $blue: #324157;
@@ -24,6 +28,39 @@ $lang-light-text-color: #202329;
 $lang-light-hover-color: #f7f8f8;
 $lang-dark-text-color: #ffffff;
 $lang-dark-hover-color: #111e29;
+
+// old color setting
+$login-background: #142330;
+$login-primary-color: #00C0AB;
+
+$body-background-color: #e5e5e5;
+$header-background-color: #091117;
+$header-complex-active-color: #1ab7a6;
+
+//颜色配置
+$common-theme-light-color: #ffffff;
+$common-theme-dark-color: #142330;
+$hoo-color-green: #00c0ab;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-green: #0ad686;
+$color-red: #f7475d;
+$color-sort: #7A8793;
+$color-sort-active: #0ad686;
+$domain-filing-color: #7A8793;
+$popover-background-color: #142330;
+$popover-item-active-color: #111e29;
+$nav-sub-title-color: #ffffff;
+$nav-sub-summary-color: rgba(122, 135, 147, 1);
+$lang-light-text-color: #202329;
+$lang-light-hover-color: #f7f8f8;
+$lang-dark-text-color: #ffffff;
+$lang-dark-hover-color: #111e29;
+$up-down-check-border-active: #00b8a4;
+$nav-item-vip-center-bg: #111e29;
+$nav-item-vip-center-border: rgba(244, 214, 155, 0.2);
+$nav-item-vip-center-text: #f4d69b;
+$sub-header-arrow-color: #848F9C;
 
 
 // 导出变量提供给js来使用 

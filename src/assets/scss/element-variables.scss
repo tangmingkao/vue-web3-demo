@@ -10,6 +10,39 @@ $--colors: (
 
 @import './common-variables.scss';
 
+/** element-ui覆盖样式 **/
+
+// popover
+.el-popper {
+  border: none !important;
+  &.common-popover{
+    background-color: var(--common-popper-bg-color) !important;
+    .el-popper__arrow {
+      display: none !important;
+    }
+    .el-dropdown-menu{
+      background-color: var(--common-popper-bg-color) !important;
+      .el-dropdown-menu__item{
+        height: 44px;
+        line-height: 44px;
+        color: var(--common-font-color);
+        &:not(.is-disable){
+          &:focus{
+            background-color: var(--common-popper-hover-color) !important;
+          }
+          &:hover{
+            background-color: var(--common-popper-hover-color) !important;
+          }
+        }
+      }
+    }
+  }
+}
+.el-popper[x-placement^="bottom"] {
+	&.common-popover {
+		margin-top: 10px !important;
+	}
+}
 
 
 

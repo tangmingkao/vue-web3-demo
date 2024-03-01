@@ -5,10 +5,10 @@
   </div>
 </template>
 <script setup lang="ts">
-import { computed } from "vue";
 import { isDark, toggleDark } from "@/hooks/use-toggle";
 import MoonIcon from '../icons/MoonIcon.vue';
 import SunIcon from "../icons/SunIcon.vue";
+
 
 console.log("dark mode:>>>", isDark.value);
 </script>

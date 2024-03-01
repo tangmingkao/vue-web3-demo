@@ -2,6 +2,7 @@
 import DarkModeToggle from "../dark-mode-toggle/index.vue";
 import Logo from "../icons/Logo.vue";
 import WalletConnect from "../wallet-connect/index.vue";
+import NetworkToggle from "../network-toggle/index.vue";
 
 </script>
 <template>
@@ -12,6 +13,7 @@ import WalletConnect from "../wallet-connect/index.vue";
     <div class="header-right-wrapper">
       <DarkModeToggle />
       <WalletConnect />
+      <NetworkToggle />
     </div>
   </div>
 </template>

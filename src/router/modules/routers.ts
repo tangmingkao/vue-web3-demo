@@ -14,19 +14,6 @@ const routes: RouteRecordRaw[] = [
         name: "HomeView",
         component: () => import("@/views/home/index.vue"),
       },
-      {
-        path: "user",
-        name: "UserView",
-        component: () => import("@/views/user/index.vue"),
-        meta: {
-          bottomForbidden: true,
-        }
-      },
-      {
-        path: "assets",
-        name: "AssetsView",
-        component: () => import("@/views/assets/index.vue"),
-      },
     ],
   },
   {
